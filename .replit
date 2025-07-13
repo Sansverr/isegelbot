@@ -1,0 +1,12 @@
+# "Run" düğmesine basıldığında çalışacak komut
+run = "python3 main.py"
+
+# Projenin ana dosyası
+entrypoint = "main.py"
+
+# Kullanılacak Python versiyonu
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["cacert", "glibcLocales"]

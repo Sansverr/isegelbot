@@ -1,0 +1,305 @@
+{
+  "keyword_mappings": {
+    "Garson/Komi": {
+      "title_keywords": ["garson", "komi", "servis elemanı", "servis personeli", "şef garson", "kaptan"],
+      "context_keywords": ["restoran", "cafe", "kafe", "bar", "otel", "servis", "sipariş", "alakart", "f&b", "yiyecek içecek", "masa"],
+      "negative_keywords": ["teknik servis", "araç servis", "servis şoförü"]
+    },
+    "Aşçı/Mutfak Yardımcısı": {
+      "title_keywords": ["aşçı", "aşçı yardımcısı", "mutfak personeli", "mutfak şefi", "demi chef", "sous chef", "mutfakçı"],
+      "context_keywords": ["mutfak", "yemek", "restoran", "otel", "gıda", "pişirme", "türk mutfağı", "dünya mutfağı", "tabldot", "menü"],
+      "negative_keywords": ["satış", "pazarlama", "kurye", "prim", "ehliyet", "sürücü", "satış danışmanı", "bulaşıkçı", "temizlik"]
+    },
+    "Izgaracı/Dönerci/Kebapçı": {
+      "title_keywords": ["ızgaracı", "dönerci", "kebapçı", "ocakbaşı ustası", "döner ustası", "kebap ustası"],
+      "context_keywords": ["ızgara", "döner", "kebap", "ocakbaşı", "et", "tavuk", "restoran", "usta"],
+      "negative_keywords": []
+    },
+    "Fırıncı/Hamur Ustaları": {
+      "title_keywords": ["fırıncı", "hamurkar", "hamur ustası", "pideci", "pide ustası", "ekmek ustası", "simitçi", "hamurcu", "lavaşı ustası"],
+      "context_keywords": ["fırın", "hamur", "pide", "ekmek", "simit", "unlu mamuller", "pastane", "maya"],
+      "negative_keywords": []
+    },
+    "Tatlıcı/Pastane Ustası": {
+      "title_keywords": ["pastacı", "tatlıcı", "pastane ustası", "pasta ustası", "tatlı ustası", "usta"],
+      "context_keywords": ["pastane", "tatlı", "pasta", "şekerleme", "çikolata", "krema", "şerbet", "baklava"],
+      "negative_keywords": []
+    },
+    "Temizlik Görevlisi": {
+      "title_keywords": ["temizlik görevlisi", "temizlik personeli", "kat görevlisi", "meydancı", "hademe", "camcı", "temizlikçi", "housekeeper", "housekeeping"],
+      "context_keywords": ["temizlik", "hijyen", "ofis", "bina", "plaza", "okul", "hastane", "site", "apartman", "ev temizliği", "kat"],
+      "negative_keywords": ["araç", "oto", "otomobil", "fabrika", "üretim", "makine", "gıda", "mutfak", "yıkama", "bulaşık"]
+    },
+    "Bulaşıkçı": {
+      "title_keywords": ["bulaşıkçı", "bulaşık", "steward", "bulaşıkhane personeli"],
+      "context_keywords": ["bulaşık"],
+      "negative_keywords": ["oto yıkama", "araç yıkama"]
+    },
+    "Kasiyer/Kasa Sorumlusu": {
+      "title_keywords": ["kasiyer", "kasa sorumlusu", "kasadar", "tezgahtar", "kasa personeli", "ön kasa elemanı"],
+      "context_keywords": ["kasa", "pos cihazı", "yazar kasa", "kasa görevlisi"],
+      "negative_keywords": []
+    },
+    "Barista/Barmen": {
+      "title_keywords": ["barista", "barmen", "barmaid", "barboy"],
+      "context_keywords": ["kahve", "içecek", "kokteyl", "kafe", "cafe", "latte", "espresso"],
+      "negative_keywords": []
+    },
+    "Şoför/Araç/Kamyon/Tır": {
+      "title_keywords": ["şoför", "sürücü", "kamyon şoförü", "tır şoförü", "servis şoförü", "makam şoförü", "sevkiyat şoförü"],
+      "context_keywords": ["araç", "kamyon", "tır", "kamyonet", "sevkiyat", "nakliye", "src", "psikoteknik", "e sınıfı ehliyet", "ağır vasıta"],
+      "negative_keywords": ["garson", "servis elemanı", "restoran", "otel"]
+    },
+    "Kurye/Paketçi": {
+      "title_keywords": ["kurye", "paketçi", "moto kurye", "motorlu kurye", "dağıtım elemanı", "motokurye", "motokurke", "dağıtım personeli"],
+      "context_keywords": ["paket", "dağıtım", "sipariş", "kargo", "motor", "a1 ehliyet", "a2 ehliyet", "motor ehliyeti", "restoran", "getir", "yemeksepeti", "trendyol", "teslimat"],
+      "negative_keywords": []
+    },
+    "Depo/Depo Görevlisi": {
+      "title_keywords": ["depo görevlisi", "depo sorumlusu", "depocu", "stok sorumlusu", "antrepo görevlisi", "depo personeli"],
+      "context_keywords": ["depo", "stok", "mal kabul", "sevkiyat", "forklift", "lojistik", "elleçleme", "rf terminal", "sayım"],
+      "negative_keywords": []
+    },
+    "Lojistik/Sevkiyatçı": {
+      "title_keywords": ["lojistik sorumlusu", "sevkiyat sorumlusu", "nakliye sorumlusu", "taşıma elemanı", "lojistik personeli"],
+      "context_keywords": ["lojistik", "sevkiyat", "nakliye", "depo", "tır", "kamyon", "operasyon", "tedarik zinciri"],
+      "negative_keywords": []
+    },
+    "Montaj/Bant Elemanı": {
+      "title_keywords": ["montaj", "montaj ustası", "montaj elemanı", "bant elemanı", "montaj işçisi", "montajcı"],
+      "context_keywords": ["montaj", "bant", "üretim", "imalat"],
+      "negative_keywords": []
+    },
+    "Paketleme/Üretim elemanı": {
+      "title_keywords": ["üretim elemanı", "paketleme elemanı", "imalat işçisi", "paketlemeci", "üretim elemanı", "üretim işçisi", "montaj elemanı", "bant elemanı"],
+      "context_keywords": ["fabrika", "üretim", "imalat", "sanayi", "bant", "etiketleme", "montaj", "vasıfsız"],
+      "negative_keywords": []
+    },
+    "Makine/CNC Operatörü": {
+      "title_keywords": ["makine operatörü", "makina operatörü", "cnc operatörü", "tornacı", "freze operatörü", "makineci", "makinacı"],
+      "context_keywords": ["makine", "makina", "operatör", "cnc", "torna", "freze"],
+      "negative_keywords": ["dikiş makinesi"]
+    },
+    "Kaynakçı/Metal İşçisi": {
+      "title_keywords": ["kaynakçı", "metal işçisi", "argon kaynakçısı", "gazaltı kaynakçısı", "demirci", "kaynak ustası"],
+      "context_keywords": ["kaynak", "metal", "demir", "çelik", "argon", "gazaltı", "atölye", "şase"],
+      "negative_keywords": []
+    },
+    "Elektrikçi/Tesisatçı": {
+      "title_keywords": ["elektrikçi", "tesisatçı", "elektrik ustası", "su tesisatçısı", "elektrik teknisyeni", "elektrik tekniker"],
+      "context_keywords": ["elektrik", "tesisat", "pano", "kablo", "arıza", "bakım", "onarım", "su", "aydınlatma"],
+      "negative_keywords": ["oto elektrik", "otomotiv"]
+    },
+    "İnşaat İşçisi": {
+      "title_keywords": ["inşaat işçisi", "beden işçisi", "amele", "düz işçi"],
+      "context_keywords": ["inşaat", "şantiye", "yevmiye", "kazma", "kürek", "taşıma", "vasıfsız"],
+      "negative_keywords": ["usta", "mühendis", "tekniker", "kalıpçı", "demirci", "mimar"]
+    },
+    "Alçı/Sıva/Boyacı": {
+      "title_keywords": ["boyacı", "sıvacı", "alçıcı", "alçıpan ustası", "boya ustası", "badana ustası","sıva ustası", "alçı ustası"],
+      "context_keywords": ["alçı", "sıva", "boya", "badana", "alçıpan", "inşaat", "dekorasyon", "tavan","sıva", "boya", "badana"],
+      "negative_keywords": ["oto boya", "araç"]
+    },
+    "Fayans/Seramik Ustası": {
+      "title_keywords": ["fayans ustası", "seramik ustası", "fayansçı", "seramikçi", "karo ustası"],
+      "context_keywords": ["fayans", "seramik", "karo", "inşaat", "banyo", "mutfak", "döşeme", "ıslak zemin"],
+      "negative_keywords": []
+    },
+    "Güvenlik/Bekçi": {
+      "title_keywords": ["güvenlik görevlisi", "özel güvenlik", "ögg", "bekçi", "güvenlik"],
+      "context_keywords": ["koruma", "site", "fabrika", "şantiye", "silahlı", "silahsız", "kamera", "kimlikli", "x-ray", "vardiya"],
+      "negative_keywords": ["siber güvenlik", "bilgi güvenliği", "restoran", "cafe"]
+    },
+    "Site ve Apartman Görevlisi": {
+      "title_keywords": ["site görevlisi", "apartman görevlisi", "kapıcı"],
+      "context_keywords": ["site", "apartman", "bina", "çöp", "temizlik", "bahçe bakımı", "havuz"],
+      "negative_keywords": []
+    },
+    "Teknik Servis Elemanı": {
+      "title_keywords": ["teknik servis elemanı", "teknisyen", "bakım onarım teknisyeni", "teknik destek uzmanı", "servis teknikeri"],
+      "context_keywords": ["teknik servis", "bakım", "onarım", "arıza", "montaj", "demontaj", "teknik destek", "sahada"],
+      "negative_keywords": ["garson", "şoför"]
+    },
+    "Beyaz Eşya ve Klima Servis": {
+      "title_keywords": ["beyaz eşya teknisyeni", "klima ustası", "kombi servisi", "iklimlendirme teknisyeni", "servis teknikeri"],
+      "context_keywords": ["beyaz eşya", "klima", "kombi", "servis", "bakım", "montaj", "buzdolabı", "çamaşır makinesi", "iklimlendirme", "vrf"],
+      "negative_keywords": []
+    },
+    "Asansör ve Mekanik Servis": {
+      "title_keywords": ["asansör bakım onarımcısı", "asansör montaj ustası", "mekanik bakımcı", "mekanik tekniker"],
+      "context_keywords": ["asansör", "mekanik", "bakım", "montaj", "revizyon", "arıza", "hidrolik", "pnömatik"],
+      "negative_keywords": []
+    },
+    "Stant ve Tanıtım Personeli": {
+      "title_keywords": ["stant elemanı", "tanıtım personeli", "promotör", "anketör", "stant hostesi"],
+      "context_keywords": ["stant", "tanıtım", "promosyon", "fuar", "etkinlik", "market", "broşür", "ürün tadımı"],
+      "negative_keywords": []
+    },
+    "Part Time / Günlük İşçi/Günlük yevmiyeli işler": {
+      "title_keywords": ["part time", "yarı zamanlı", "ek iş", "günlük iş", "yevmiyeli iş", "saatlik iş", "part-time", "parttime", "dönemsel", "geçici", "hafta sonu", "günlük ücret", "saatlik ücret", "yevmiyeli", "günlük ödeme", "saatlik ödeme"],
+      "context_keywords": ["ek gelir", "ekstra", "extra", "serbest zamanlı"],
+      "negative_keywords": []
+    },
+    "Engelli Personel": {
+      "title_keywords": ["engelli personel", "engelli kadrosu"],
+      "context_keywords": ["engelli", "raporlu", "devlet teşviki", "%40"],
+      "negative_keywords": []
+    },
+    "Satış Danışmanı": {
+      "title_keywords": ["satış danışmanı", "satış temsilcisi", "mağaza satış elemanı", "tezgahtar", "satış elemanı","pazarlamacı", "mağaza personeli", "satış uzmanı"],
+      "context_keywords": ["satış", "mağaza", "perakende", "müşteri", "hedef", "prim", "pazarlama", "reyon", "tezgah", "dükkan", "danışman", "ticaret"],
+      "negative_keywords": ["teknik", "çağrı merkezi", "tele-satış", "emlak", "gayrimenkul"]
+    },
+    "Karşılama Hostesi/Sekreter": {
+      "title_keywords": ["sekreter", "resepsiyonist", "karşılama personeli", "danışma görevlisi", "yönetici asistanı", "karşılama hostesi", "hostes"],
+      "context_keywords": ["ofis", "telefon", "randevu", "ajanda", "misafir", "karşılama", "yönlendirme", "ofis yönetimi", "asistan"],
+      "negative_keywords": ["fuar", "stant"]
+    },
+    "Oto Yıkama": {
+      "title_keywords": ["oto yıkama elemanı", "oto yıkama", "araç yıkama", "oto kuaför", "yıkamacı", "oto kuaför elemanı", "detailing uzmanı"],
+      "context_keywords": ["pasta cila", "detaylı temizlik", "valet", "seramik kaplama"],
+      "negative_keywords": ["bina", "ofis", "ev", "berber", "bulaşık"]
+    },
+    "Pizza Ustası/Pizza Kalfası": {
+      "title_keywords": ["pizza ustası", "pizza kalfası", "pizzacı", "pizza kalfası", "pizzaiolo"],
+      "context_keywords": ["hamur", "fırın", "restoran", "italyan mutfağı"],
+      "negative_keywords": ["kurye", "paketçi", "motorlu", "şoför"]
+    },
+    "Estetisyen/Güzellik Salonu": {
+      "title_keywords": ["estetisyen", "güzellik uzmanı", "masöz", "epilasyon uzmanı", "cilt bakım uzmanı", "terapist","güzellik salonu"],
+      "context_keywords": ["güzellik", "salon", "merkez", "masaj", "epilasyon", "cilt bakımı", "manikür", "pedikür", "lazer", "kalıcı makyaj", "spa"],
+      "negative_keywords": []
+    },
+    "Mağaza/Restoran/Cafe/Fastfood": {
+      "title_keywords": [ "restoran müdürü", "restoran yöneticisi", "cafe müdürü", "cafe yöneticisi", "ekip üyesi", "servis personeli","garson","restoran", "cafe", "fastfood","garson","servis elemanı", "barmen", "barista", "barmaid", "barboy", "işletme müdürü", "vardiya müdürü", "şube sorumlusu","servis elemanı","restoran yöneticisi"],
+      "context_keywords": ["restoran", "cafe", "fastfood", "bar", "gıda", "yiyecek içecek", "franchise", "şube", "mutfak görevlisi", "yemek"],
+      "negative_keywords": ["güvenlik", "şoför", "servis şoförü", "temizlik"]
+    },
+    "Market/Supermarket": {
+      "title_keywords": ["market elemanı", "reyon görevlisi", "kasap", "manav", "şarküteri görevlisi", "market personeli"],
+      "context_keywords": ["market", "süpermarket", "bakkal", "reyon", "kasa", "tezgahtar", "şarküteri", "hipermarket"],
+      "negative_keywords": []
+    },
+    "Çağrı Merkezi/Müşteri Temsilcisi": {
+      "title_keywords": ["müşteri temsilcisi", "çağrı merkezi elemanı", "call center agent", "tele satış temsilcisi", "müşteri danışmanı", "müşteri hizmetleri"],
+      "context_keywords": ["çağrı merkezi", "müşteri hizmetleri", "call center", "tele satış", "inbound", "outbound", "destek", "telefon", "agent"],
+      "negative_keywords": []
+    },
+    "Vasıfsız İşçi": {
+      "title_keywords": ["vasıfsız işçi", "vasıfsız personel", "düz işçi", "beden işçisi", "yetiştirilmek üzere"],
+      "context_keywords": ["vasıfsız", "üretim destek", "deneyimsiz"],
+      "negative_keywords": ["usta", "tekniker", "deneyimli"]
+    },
+    "Hasta Bakıcı/Yaşlı Bakımı": {
+      "title_keywords": ["hasta bakıcı", "yaşlı bakımı elemanı", "refakatçi", "bakım elemanı"],
+      "context_keywords": ["hasta bakımı", "yaşlı bakımı", "evde bakım", "huzurevi", "refakat", "yatılı"],
+      "negative_keywords": ["hemşire", "sağlık personeli"]
+    },
+    "Eğitim (Öğretmen,Eğitmen,Rehber)": {
+      "title_keywords": ["öğretmen", "eğitmen", "rehber öğretmen", "etüt öğretmeni", "branş öğretmeni", "öğrenci işleri", "eğitim koordinatörü"],
+      "context_keywords": ["eğitim", "okul", "kolej", "dershane", "kurs", "etüt merkezi", "kreş", "anaokulu", "öğrenci"],
+      "negative_keywords": []
+    },
+    "Turizm/Otel (F&B, Resepsiyonist, Vale, Bellboy, Kat Hizmetleri)": {
+      "title_keywords": ["resepsiyonist", "vale", "bellboy", "kat hizmetleri görevlisi", "housekeeper", "ön büro elemanı", "misafir ilişkileri", "turizm personeli", "otel personeli", "concierge", "otel", "tatil köyü", "turizm", "konaklama"],
+      "context_keywords": ["resepsiyon", "ön büro", "misafir", "rezervasyon", "f&b", "yiyecek içecek", "check-in", "check-out"],
+      "negative_keywords": []
+    },
+    "Otomotiv (Oto Tamircisi,Oto Tekniker, Oto Elektrikçisi, Kaporta Ustası)": {
+      "title_keywords": ["oto tamirci", "otomotiv teknisyeni", "oto tekniker", "oto elektrikçi", "kaportacı", "kaporta ustası", "mekaniker", "oto boya ustası", "lastikçi", "rot balans ustası"],
+      "context_keywords": ["otomotiv", "araç", "jant", "lastik", "balans", "boya", "kaporta", "yedek parça", "periyodik bakım", "motor", "mekanik", "fren", "otomotiv sektör"],
+      "negative_keywords": ["bina", "ofis", "temizlik", "yıkama", "gıda", "şoför"]
+    },
+    "İnşaat (Tekniker, Mimar, İşçi)": {
+      "title_keywords": ["inşaat teknikeri", "mimar", "inşaat mühendisi", "şantiye şefi", "harita mühendisi", "tekniker", "mühendis"],
+      "context_keywords": ["inşaat", "şantiye", "proje", "çizim", "autocad", "metraj", "hakediş", "betonarme", "kaba inşaat", "ince işler"],
+      "negative_keywords": []
+    },
+    "Sağlık (Sağlık Personeli,Hemşire)": {
+      "title_keywords": ["hemşire", "sağlık personeli", "att", "paramedik", "doktor asistanı", "laborant", "sağlık teknikeri", "hasta danışmanı","tıbbi sekreter", "eczacı kalfası"],
+      "context_keywords": ["sağlık", "hastane", "klinik", "tıp merkezi", "ameliyathane", "hasta", "doktor", "eczacı", "poliklinik"],
+      "negative_keywords": ["hasta bakıcı", "temizlik"]
+    },
+    "Fabrika İşçisi": {
+      "title_keywords": ["fabrika işçisi", "fabrika personeli", "üretim işçisi"],
+      "context_keywords": ["fabrika", "üretim", "imalat", "sanayi", "makine", "operatör", "vasıfsız fabrika", "vardiyalı"],
+      "negative_keywords": ["tekstil", "gıda", "yemekhane", "depo"]
+    },
+    "Tarım / Çiftlik / Bahçe İşleri (Bahçivan,Tarla İşçisi, Çiftlik Elemanı)": {
+      "title_keywords": ["bahçıvan", "tarla işçisi", "çiftlik elemanı", "ziraat teknikeri", "çiftçi", "peyzaj mimarı", "çoban", "tarım teknikeri", "bahçe işçisi", "tarım işçisi", "tarım elemanı", "bahçe"],
+      "context_keywords": ["tarım", "çiftlik", "bahçe", "sera", "fidanlık", "peyzaj", "sulama", "hayvancılık", "ziraat", "tarımsal", "orman", "toprak"],
+      "negative_keywords": []
+    },
+    "yönetici/sorumlu": {
+      "title_keywords": ["yönetici", "müdür", "sorumlu", "şef", "direktör", "lider", "koordinatör", "yönetmen"],
+      "context_keywords": ["ekip yönetimi", "strateji", "raporlama", "bütçe", "operasyon", "departman", "proje yönetimi"],
+      "negative_keywords": ["asistan", "yardımcı", "eleman", "personel", "görevlisi"]
+    },
+    "mühendis": {
+      "title_keywords": ["mühendis", "engineer", "makine mühendisi", "inşaat mühendisi", "elektrik mühendisi", "yazılım mühendisi", "gıda mühendisi", "endüstri mühendisi"],
+      "context_keywords": ["proje", "tasarım", "üretim", "analiz", "autocad", "solidworks", "mühendislik", "şantiye", "fabrika"],
+      "negative_keywords": ["tekniker", "teknisyen", "işçi", "usta"]
+    },
+    "yazılım/it": {
+      "title_keywords": ["yazılım", "developer", "geliştirici", "it uzmanı", "sistem uzmanı", "network uzmanı", "yazılımcı", "frontend", "backend", "full-stack", "bilgi işlem"],
+      "context_keywords": ["java", "python", "c#", "javascript", "react", "angular", "sql", "veritabanı", "sunucu", "server", "network", "güvenlik", "firewall", "it"],
+      "negative_keywords": ["eğitim", "pazarlama", "satış", "kullanıcı"]
+    },
+    "pazarlama/iletişim": {
+      "title_keywords": ["pazarlama", "marketing", "dijital pazarlama", "sosyal medya uzmanı", "içerik uzmanı", "marka yöneticisi", "kurumsal iletişim"],
+      "context_keywords": ["seo", "sem", "google ads", "sosyal medya", "kampanya", "marka", "içerik", "reklam", "analiz", "metin yazarı", "pr"],
+      "negative_keywords": ["satış danışmanı", "tezgahtar", "mağaza"]
+    },
+    "muhasebe/finans": {
+      "title_keywords": ["muhasebe", "finans", "mali işler", "muhasebeci", "denetçi", "ön muhasebe", "finans uzmanı", "mali müşavir"],
+      "context_keywords": ["fatura", "vergi", "beyanname", "bordro", "sgk", "raporlama", "bütçe", "nakit akışı", "cari hesap", "e-fatura"],
+      "negative_keywords": ["satış", "eğitim", "ders", "yazılım"]
+    },
+    "tasarımcı / grafik": {
+      "title_keywords": ["grafik tasarımcı", "grafiker", "ui/ux", "web tasarımcı", "sanat yönetmeni", "designer", "tasarımcı"],
+      "context_keywords": ["photoshop", "illustrator", "indesign", "adobe", "figma", "tasarım", "logo", "kurumsal kimlik", "web sitesi", "katalog", "broşür"],
+      "negative_keywords": ["mühendis", "yazılım", "iç mimar"]
+    },
+    "idari işler/ofis destek": {
+      "title_keywords": ["idari işler", "ofis destek", "ofis elemanı", "idari asistan", "ön büro elemanı"],
+      "context_keywords": ["ofis yönetimi", "evrak", "dosyalama", "kargo", "mutemet", "ofisboy", "çay", "temizlik"],
+      "negative_keywords": ["sekreter", "yönetici asistanı", "muhasebe", "finans"]
+    },
+    "insan kaynakları": {
+      "title_keywords": ["insan kaynakları", "ik uzmanı", "işe alım uzmanı", "hr specialist", "bordro ve özlük işleri", "ik"],
+      "context_keywords": ["işe alım", "mülakat", "bordro", "özlük", "performans", "eğitim", "sgk işlemleri", "puantaj"],
+      "negative_keywords": ["personel görevlisi"]
+    },
+    "Mağazacılık/Perakende": {
+      "title_keywords": ["mağaza","mağazacılık", "perakende", "mağaza personeli", "reyon şefi", "kategori yöneticisi", "merchandiser","satış danışmanı", "mağaza müdürü"],
+      "context_keywords": ["mağaza", "perakende", "reyon", "stok", "ürün yönetimi", "görsel düzenleme", "avm"],
+      "negative_keywords": ["restoran", "cafe", "otel", "garson"]
+    },
+    "Restoran & Fastfood & Cafe & Bar": {
+      "title_keywords": [
+        "restoran", "cafe", "kafe", "bar", "fastfood", 
+        "garson", "komi", "servis elemanı", "barmen", "barista", "barmaid", "barboy",
+        "işletme müdürü", "vardiya müdürü", "şube sorumlusu", "restoran yöneticisi", "vardiya amiri", "işletme sorumlusu",
+        "ekip üyesi", "takım üyesi", "tezgahtar", "servis personeli", "restoran personeli", "kafe personeli", "mutfak personeli", "crew member"
+      ],
+      "context_keywords": [
+        "gıda", "yiyecek", "içecek", "f&b", "adisyon", "franchise", "şube",
+        "self-servis", "paket servis", "takeaway", "hizmet sektörü", "misafir memnuniyeti", "menü",
+        "sipariş", "masa servisi", "kokteyl", "kahve"
+      ],
+      "negative_keywords": [
+        "mağaza", "perakende", "market", "güvenlik", "şoför", "teknik servis", "satış danışmanı", "otel"
+      ]
+    },
+    "Tekstil & Konfeksiyon": {
+      "title_keywords": ["tekstil", "konfeksiyon", "dikişçi", "makineci", "overlokçu", "ütücü", "modelist", "kesimci", "model makineci"],
+      "context_keywords": ["kumaş", "iplik", "dikiş", "overlok", "kesim", "model", "kalıp", "atölye", "tekstil fabrikası", "penye", "dokuma"],
+      "negative_keywords": ["mağaza", "satış", "tasarımcı"]
+    },
+    "satın alma": {
+      "title_keywords": ["satın alma", "purchasing", "satınalma uzmanı", "tedarik zinciri uzmanı"],
+      "context_keywords": ["tedarikçi", "fiyat teklifi", "teklif", "sipariş", "stok yönetimi", "malzeme planlama", "lojistik"],
+      "negative_keywords": []
+    }
+  }
+}
